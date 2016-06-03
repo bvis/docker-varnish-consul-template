@@ -1,7 +1,7 @@
 # Backends director
 
 backend server1 { # Define one backend
-  .host = "127.0.0.1";    # IP or Hostname of backend
+  .host = "127.0.0.1";    # IP or Hostname of backend. Change it!
   .port = "80";           # Port Apache or whatever is listening
   .max_connections = 300; # That's it
 
